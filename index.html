@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mobispread HTML landing page template is based on Bootstrap and it will help you present a young software business and generate leads for the offered solutions.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Mobispread - Software Business HTML Landing Page Template</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <link href="css/intlTelInput.css" rel="stylesheet">
+
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mobispread</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/mobispread-logo1.png" alt="alternative"></a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#quote">Quote</a>
+                    </li>
+
+                    <!-- Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">Terms Conditions</span></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">Privacy Policy</span></a>
+                        </div>
+                    </li>
+                    <!-- end of dropdown menu -->
+
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div>
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="text-container">
+                            <h2><span class="turquoise">Free Carrier Lookup Tool</span></h2>
+                            <p class="p-medium">Find Carrier for any Phone Number in the world</p>
+                            <!-- Contact Form -->
+                            <form id="phoneForm" data-toggle="validator" data-focus="false">
+                                <div class="form-group">
+                                    <input type="tel" class="form-control-input" id="phone" name="pphone" required>
+                                    <!--label class="label-control" for="pphone">Phone</label-->
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control-submit-button">SUBMIT</button>
+                                </div>
+                                <div class="form-message">
+                                    <div id="phonemsgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                            </form>
+
+                            <div class = "phoneResponseData" id="phoneResponseData">
+                                <table class="table table-bordered" id="phonetable">
+                                  <thead>
+                                      <tr>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">Phone Number</th>
+                                              <td id="phoneNumber"></td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Phone Number Type</th>
+                                              <td id="phoneType"></td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Country Code</th>
+                                              <td id="countryCode"></td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">Carrier Name</th>
+                                              <td id="carrierName"></td>
+                                            </tr>
+                                          </tbody>
+                                      </tr>
+                                  </thead>
+                                </table>
+                            </div>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-software-app.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <!--div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Image Slider -->
+                        <!--div class="slider-container">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
+                                    </div>
+                                </div> <!-- end of swiper-wrapper -->
+                            <!--/div> <!-- end of swiper container -->
+                        <!--/div> <!-- end of slider-container -->
+                        <!-- end of image slider -->
+
+                    <!--/div> <!-- end of col -->
+                <!--/div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <svg class="frame-decorative" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 150"><defs><style>.cls-1{fill:#f4f9ff;}</style></defs><title>frame-decorative</title><path class="cls-1" d="M0,81.411c143,57.608,255.5,64.833,328.644,61.616,147.721-6.5,183.881-57.563,320.829-51.347,143,6.491,167.826,65.1,293,58.193,109.095-6.018,115.68-51.946,225.251-54.77,113.58-2.928,138.8,45.589,251.189,39.936,104.012-5.231,109.713-48.158,197.369-44.5,89.549,3.736,124.375,50.226,227.622,47.924a353.34,353.34,0,0,0,76.1-10.269V0.5H0V81.411Z" transform="translate(0 -0.5)"/></svg>
+    <!-- end of header -->
+
+
+    <!-- Services -->
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">We have everything you need to get your Application up and running in no time!</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/voip-icon.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">VOIP Applications</h4>
+                            <p>Deliver complete VoIP business solutions with varied open source technologies</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/mobile-icon.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Mobile Applications</h4>
+                            <p>Deliver advanced and user friendly mobile application for iOS and Android</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/web-icon.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Application</h4>
+                            <p>Deliver enterprise-quality custom Web Applications</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/open-icon.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Open Source</h4>
+                            <p>Get hands-on assistance and expert advice from professionals for your open source projects!</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of services -->
+
+    <!-- Details Lightbox -->
+	<div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>ERP Integration</h3>
+                    <hr>
+                    <h5>Core service</h5>
+                    <p>Integrating ERPs is the bread and butter of our work. We've been doing it successfully for the last 5 years and we still enjoy it every time.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">List building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Easy database browsing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">User administration</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Automate user signup</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Quick formatting tools</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Fast email checking</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#quote">SIGN UP</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox -->
+
+
+    <!-- Registration -->
+    <div id="quote" class="form-1">
+        <div class="container">
+            <div class="area-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h3>Register For A Free Quote Call</h3>
+                            <p>Mobispread is one of the most <strong>reliable</strong> and <b>experienced</b> business software integrators in the market. Discover what it can do for your company with just a few mouse clicks.</p>
+                            <h4>It's Easy To Setup A Meeting</h4>
+                            <p>It's easy to setup a meeting with our team of consultants. Just fill in the form and we'll get back to you in less than 24h</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body"><strong>Improve your business flow</strong> with the right software</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body"><strong>Better productivity</strong> through the entire supply chain</div>
+                                </li>
+                            </ul>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+
+                        <!-- Request Form -->
+                        <div class="form-container">
+                            <form id="registrationForm" data-toggle="validator" data-focus="false">
+                                <div class="form-group">
+                                    <input type="text" class="form-control-input" id="rname" name="rname" required>
+                                    <label class="label-control" for="rname">Full name</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control-input" id="remail" name="remail" required>
+                                    <label class="label-control" for="remail">Email</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control-input" id="rphone" name="rphone" required>
+                                    <label class="label-control" for="rphone">Phone</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <!--div class="form-group">
+                                    <select class="form-control-select" id="rselect" required>
+                                        <option class="select-option" value="" disabled selected>Interested in...</option>
+                                        <option class="select-option" value="ERP Solution">ERP Solution</option>
+                                        <option class="select-option" value="CRM Solution">CRM Solution</option>
+                                        <option class="select-option" value="WMS Solution">WMS Solution</option>
+                                        <option class="select-option" value="SFA Solution">SFA Solution</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div-->
+                                <div class="form-group checkbox">
+                                    <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I agree with Mobispread's written <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms & Conditions</a>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control-submit-button">REGISTER</button>
+                                </div>
+                                <div class="form-message">
+                                    <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                            </form>
+                        </div> <!-- end of form-container -->
+                        <!-- end of request form -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of area-container -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+
+    <!-- About -->
+    <div id="about" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">About Mobispread The Company</h2>
+                    <img class="divider-heading" src="images/divider.svg" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Milestone -->
+                    <div class="milestone">
+                        <div class="year">2017</div>
+                        <div class="divider"></div>
+                        <div class="details p-small">The company is born due to the vision and enthusiasm of the core team members</div>
+                    </div> <!-- end of milestone-wrapper -->
+                    <!-- end of milestone -->
+
+                    <!-- Milestone -->
+                    <div class="milestone">
+                        <div class="year">2019</div>
+                        <div class="divider"></div>
+                        <div class="details p-small">After a number of successful projects our position in the market is consolidated</div>
+                    </div> <!-- end of milestone-wrapper -->
+                    <!-- end of milestone -->
+
+                    <!-- Milestone -->
+                    <div class="milestone">
+                        <div class="year">2020</div>
+                        <div class="divider"></div>
+                        <div class="details p-small">Looking forward to expand the team due to the increased demand for solutions</div>
+                    </div> <!-- end of milestone-wrapper -->
+                    <!-- end of milestone -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of about -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="basic-3">
+        <div class="container">
+            <div class="row">
+                <!--div class="col-lg-7">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.5303553091994!2d-0.14076024298621118!3d51.51210217963597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d502268421%3A0x6a7d62889992f993!2sRegent+St%2C+Soho%2C+London+W1B+5TH%2C+UK!5e0!3m2!1sen!2sro!4v1476174541049" allowfullscreen></iframe>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>Contact Details</h2>
+                        <p>Give us a call if you are thinking about a business automation project</p>
+                        <div class="divider"></div>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="media-body">(561) 666-7557</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-envelope"></i>
+                                <div class="media-body"><a class="light-gray" href="mailto:contact@mobispread.com">contact@mobispread.com</a> <i class="fas fa-globe"></i><a class="light-gray" href="#your-link">www.mobispread.com</a></div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col first">
+                        <h5>About Mobispread</h5>
+                        <p class="p-small">We're passionate about integration software solutions to increase business performance</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h5>Important Links</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <!--li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Read our latest <a class="blue" href="article-details.html">Software Solution Article</a></div>
+                            </li-->
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Read our <a class="blue" href="terms-conditions.html">Terms & Conditions</a>, <a class="blue" href="privacy-policy.html">Privacy Policy</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h5>Social Media</h5>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> - All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/intlTelInput.js"></script> <!-- Custom scripts -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
