@@ -31,7 +31,7 @@
     <link href="css/intlTelInput.css" rel="stylesheet">
 
 	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/mobispread-icon.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -54,7 +54,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mobispread</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/mobispread-logo1.png" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/mobispread-logo2.png" alt="alternative"></a>
 
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,14 +98,14 @@
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
-                    <span class="fa-stack">
+                    <!--span class="fa-stack">
                         <a href="#your-link">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-facebook-f fa-stack-1x"></i>
                         </a>
-                    </span>
+                    </span-->
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://twitter.com/mobispread">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-twitter fa-stack-1x"></i>
                         </a>
@@ -122,53 +122,6 @@
         <div class="header-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-xl-5">
-                        <div class="text-container">
-                            <h2><span class="turquoise">Free Carrier Lookup Tool</span></h2>
-                            <p class="p-medium">Find Carrier for any Phone Number in the world</p>
-                            <!-- Contact Form -->
-                            <form id="phoneForm" data-toggle="validator" data-focus="false">
-                                <div class="form-group">
-                                    <input type="tel" class="form-control-input" id="phone" name="pphone" required>
-                                    <!--label class="label-control" for="pphone">Phone</label-->
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="form-control-submit-button">SUBMIT</button>
-                                </div>
-                                <div class="form-message">
-                                    <div id="phonemsgSubmit" class="h3 text-center hidden"></div>
-                                </div>
-                            </form>
-
-                            <div class = "phoneResponseData" id="phoneResponseData">
-                                <table class="table table-bordered" id="phonetable">
-                                  <thead>
-                                      <tr>
-                                          <tbody>
-                                            <tr>
-                                              <th scope="row">Phone Number</th>
-                                              <td id="phoneNumber"></td>
-                                            </tr>
-                                            <tr>
-                                              <th scope="row">Phone Number Type</th>
-                                              <td id="phoneType"></td>
-                                            </tr>
-                                            <tr>
-                                              <th scope="row">Country Code</th>
-                                              <td id="countryCode"></td>
-                                            </tr>
-                                            <tr>
-                                              <th scope="row">Carrier Name</th>
-                                              <td id="carrierName"></td>
-                                            </tr>
-                                          </tbody>
-                                      </tr>
-                                  </thead>
-                                </table>
-                            </div>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
                     <div class="col-lg-6 col-xl-7">
                         <div class="image-container">
                             <img class="img-fluid" src="images/header-software-app.png" alt="alternative">
@@ -499,15 +452,9 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://twitter.com/mobispread">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
@@ -543,6 +490,20 @@
     <!-- end of copyright -->
 
 
+      <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+15612139698", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
@@ -553,5 +514,6 @@
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/intlTelInput.js"></script> <!-- Custom scripts -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
 </body>
 </html>

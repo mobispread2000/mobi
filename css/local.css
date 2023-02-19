@@ -7,3 +7,24 @@
 .iti.iti--allow-dropdown {
     display: block !important;
 }
+
+
+h3.mb-0 {
+    text-align: center;
+}
+.heading-title {
+    padding-top: 5px;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+.white-text {
+    color: white;
+}
+.grey-text {
+    color: #d6dadc !important;
+}
+
+.whatsapp-icon {
+    width: 20px;
+}
